@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Merriweather&family=Montserrat:wght@500;700;900&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/* GENERAL STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+.main-box {
+    max-width: 350px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.hero-img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+h1 {
+    margin: 22px 0;
+    color: hsl(223, 47%, 23%);
+    font-size: 22px;
+}
+
+.box-para {
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.annual-change {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+    background-color: #f8f9fe;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.img-annual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 90px;
+}
+
+.music-icon {
+    width: 90%;
+    float: left;
+}
+
+.annual-year {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.annual-plan {
+    font-weight: bold;
+}
+
+.change {
+    color: hsl(245, 75%, 52%);
+    font-size: 14px;
+    opacity: 1;
+    transition: all .2s ease;
+}
+
+.change:hover {
+    text-decoration: none;
+    opacity: .8;
+}
+
+.btn {
+    width: 90%;
+    margin: 15px;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.proceed-btn {
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    opacity: 1;
+    transition: all .2s ease;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0 15px 20px 0 hsla(245, 75%, 52%, .25);
+}
+
+.proceed-btn:hover {
+    opacity: .8;
+}
+
+.cancel-btn {
+    border: none;
+    background-color: hsl(225, 100%, 98%);
+    margin-bottom: 25px;
+
+}
+
+.cancel-btn a {
+    color: hsl(223, 47%, 23%);
+}
+
+.cancel-btn a:hover {
+    color: hsl(224, 23%, 55%);
+    transition: color .2s ease;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 375px) {
+
+    body {
+        background: url(/images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
