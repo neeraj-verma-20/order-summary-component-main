@@ -29,23 +29,29 @@ body {
     flex-direction: column;
 }
 
+/* TOP IMAGE SECTION */
+
 
 .hero-img {
     width: 100%;
     border-radius: 10px 10px 0px 0px;
 }
 
+/* HEADING AND PARAGRAPH SECTION */
+
 h1 {
-    margin: 22px 0;
     color: hsl(223, 47%, 23%);
     font-size: 22px;
+    margin-top: 38px;
 }
 
 .box-para {
     text-align: center;
     font-size: 16px;
-
+    margin: 10px 0;
 }
+
+/* PLAN SECTION */
 
 .annual-change {
     display: flex;
@@ -89,6 +95,8 @@ h1 {
     text-decoration: none;
     opacity: .8;
 }
+
+/* BUTTON SECTION */
 
 .btn {
     width: 90%;
