@@ -103,11 +103,12 @@ h1 {
     margin: 15px;
 }
 
-.btn a {
+.btn {
     color: white;
     text-decoration: none;
     font-weight: bold;
     margin: 20px 0;
+    cursor: pointer;
 }
 
 .proceed-btn {
@@ -131,11 +132,11 @@ h1 {
 
 }
 
-.cancel-btn a {
+.cancel-btn {
     color: hsl(223, 47%, 23%);
 }
 
-.cancel-btn a:hover {
+.cancel-btn:hover {
     color: hsl(224, 23%, 55%);
     transition: color .2s ease;
 }
